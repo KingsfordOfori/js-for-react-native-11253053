@@ -18,3 +18,8 @@ function processArray(arr) {
     }
     return formattedArray;
   }
+// Example usage:
+let strings = ["Janet", "Bismark", "Kingsford", "Doris"];
+let numbers = [2, 5, 4, 3];
+let formattedStrings = formatArrayStrings(strings, processArray(numbers));
+console.log(formattedStrings); // Output: ['JANET', 'bismark', 'KINGSFORD', 'doris']
